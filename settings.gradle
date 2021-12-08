@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
         maven {
-            name = 'OMASHE'
-            url = 'https://maven.omashe.net/'
+            name = 'Fabric'
+            url = 'https://maven.fabric.net/'
         }
         mavenCentral()
         gradlePluginPortal()
