@@ -4,9 +4,9 @@
   "package": "net.omashe.fastdecay.leavesmixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "LeavesMixin"
   ],
   "client": [
-    "LeavesMixin"
   ],
   "injectors": {
     "defaultRequire": 1
