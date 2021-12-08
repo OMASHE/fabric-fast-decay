@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fastdecay",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fabric Fast Decay",
+  "description": "Leaves decay faster!",
   "authors": [
-    "Me!"
+    "Owen Sheffer"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://omashe.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Apache License v2",
+  "icon": "assets/fastdecay/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.omashe.fastdecay.FastDecay"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fastdecay.mixins.json"
   ],
 
   "depends": {
